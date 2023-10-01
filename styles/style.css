@@ -89,7 +89,8 @@ ol {
 .search-form {
     display: flex;
     margin-top: 10px;
-} 
+}
+ 
 .button {
     color: white;
     border: 1px solid white;
@@ -226,7 +227,7 @@ a {
     border: 1px solid white;
 }
 .button:focus {
-    border: 4px double white;
+    border: 3px double white;
 }
 
 .search-form__label:focus {
