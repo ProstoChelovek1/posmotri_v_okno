@@ -45,6 +45,7 @@ ol {
 }
 
 .content__list {
+    position: relative;
     overflow-y: scroll;
     height: 298px;
     width: 400px;
@@ -80,7 +81,9 @@ ol {
     margin-top: 78px;
     width: 711px;
 }
-
+.result__video-container {
+    position: relative;
+}
 .content__details {
     padding-right: 32px;
     width: 403px;
