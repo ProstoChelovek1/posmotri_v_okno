@@ -88,7 +88,8 @@ a:hover{
 .search-form {
     display: flex;
     margin-top: 10px;
-} 
+}
+ 
 .button {
     font-size: 18px;
     font-family: 'Fira Sans Condensed', sans-serif;
@@ -150,6 +151,7 @@ a:hover{
     border: none;
     margin-top: auto;
 }
+
 .search-form__fieldset-title {
     font-weight: 400;
     font-size: 18px;
@@ -189,7 +191,7 @@ a:hover{
   height: 20px;
   border: 1px solid white;
   vertical-align: middle;
-  margin-right: 4px;
+  margin: auto;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox {
@@ -204,7 +206,8 @@ a:hover{
 .search-form__label-text:hover {
     text-decoration: underline;
     text-underline-offset: 3px;
-    cursor: pointer; 
+    cursor: pointer;
+ 
 }
 .button:hover {
     text-decoration: underline;
@@ -230,7 +233,7 @@ a:hover{
 }
 
 .search-form__label:has(:focus-visible) {
-    border: 10px solid white;
+    border: 1px solid white;
 }
 
 .content__list::-webkit-scrollbar {
