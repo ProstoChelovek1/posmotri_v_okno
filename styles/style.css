@@ -87,6 +87,9 @@ a:hover{
 
 .search-form {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
     margin-top: 10px;
 } 
 .button {
@@ -101,7 +104,7 @@ a:hover{
 .search-form__submit-button {
     width: 194px;
     height: 35px;
-    margin-top: auto;
+    margin-top: auto; 
 }
 .more-button{
     width: 100%;
@@ -149,17 +152,35 @@ a:hover{
 }
 
 .search-form__fieldset {
-    margin-right: auto;
     border: none;
     margin-top: auto;
 }
 
+.search-form__label:not(:last-child) {
+    margin-right: 15px; 
+}
+.search-form__checkbox-list {
+    display: flex;
+}
+.search-form__pseudo-checkbox  {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    vertical-align: middle;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.search-form__label {
+    display: flex;
+}
 .search-form__fieldset-title {
     font-weight: 400;
     font-size: 18px;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 .search-form__label-text {
+    display: block;
     font-weight: 400;
     font-size: 18px; 
     font-family: 'Fira Sans Condensed', sans-serif;
@@ -187,14 +208,8 @@ a:hover{
   overflow: hidden; 
 }
 
-.search-form__pseudo-checkbox  {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border: 1px solid white;
-  vertical-align: middle;
-  margin: auto;
-  cursor: pointer;
+content__card-link  {
+    margin: 2px;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox {
@@ -229,9 +244,6 @@ a:hover{
 }
 
 .button:active {
-    background-color: #545050;
-}
-.content__card-link:active {
     background-color: #545050;
 }
 .content__video-card:active {
