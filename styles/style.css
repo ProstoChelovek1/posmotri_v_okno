@@ -55,7 +55,6 @@ a:hover{
 
 .content {
     align-items: end;
-    justify-content: center;
     display: flex;
     width: 1140px;
     margin: auto;
@@ -90,7 +89,7 @@ a:hover{
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
-    margin-top: 10px;
+    margin-top: 3px;
 } 
 .button {
     font-size: 18px;
@@ -114,13 +113,13 @@ a:hover{
 .result__video{
     object-fit: cover;
     object-position: center; 
-    width: 695px;
+    width: 711px;
+    height: 386px; 
 }
 
 .content__video-card-thumbnail {
     width: 194px;
     height: 103px;
-    margin-left: 30px;
     object-position: center;
     object-fit: cover;
 }
@@ -173,6 +172,8 @@ a:hover{
 }
 .search-form__label {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .search-form__fieldset-title {
     font-weight: 400;
@@ -196,6 +197,7 @@ a:hover{
     border-bottom: 1px solid white;
     border-right: 0px solid white;
     background-color: transparent;
+    margin-top: 3px;
 }
 .visually-hidden {
   position: absolute; 
@@ -208,7 +210,8 @@ a:hover{
   overflow: hidden; 
 }
 
-content__card-link  {
+.content__card-link  {
+    display: block;
     margin: 2px;
 }
 
@@ -223,30 +226,25 @@ content__card-link  {
     text-decoration: underline;
     text-underline-offset: 3px;
 }
-.search-form__label-text:hover {
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    cursor: pointer;
-}
 .button:hover {
     text-decoration: underline;
     text-underline-offset: 3px;
 }
-.content__card-link:has(:focus-visible) {
+.content__card-link:focus-visible {
     text-decoration: underline white;
     text-underline-offset: 6px;
 }
 .content__card-link:focus {
-    outline: revert !important;
+    outline: revert;
 }
 .search-form__textfield:focus  {
-    outline: revert !important;
+    outline: revert;
 }
 
 .button:active {
     background-color: #545050;
 }
-.content__video-card:active {
+.content__card-link:active {
     background-color: #545050;
 }
 
@@ -254,16 +252,8 @@ content__card-link  {
     border: 1px solid white;
 }
 .button:focus {
-    outline: revert !important;
+    outline: revert;
 }
 .button:focus-visible {
     border: 3px double white;
-}
-
-.search-form__label:has(:focus-visible) {
-    border: 1px solid white;
-}
-
-.content__list::-webkit-scrollbar {
-  width: 2;
 }
