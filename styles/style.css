@@ -177,6 +177,7 @@ a:hover{
 }
 .search-form__fieldset-title {
     font-weight: 400;
+    margin-top: 4px;
     font-size: 18px;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
