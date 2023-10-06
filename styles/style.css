@@ -159,7 +159,7 @@ a:hover{
 }
 .search-form__checkbox-list {
     display: flex;
-    margin-top: 4px;
+    margin-top: 5px;
 }
 .search-form__pseudo-checkbox  {
     display: block;
@@ -198,7 +198,7 @@ a:hover{
     border-bottom: 1px solid white;
     border-right: 0px solid white;
     background-color: transparent;
-    margin-top: 5px;
+    margin-top: 6px;
 }
 .visually-hidden {
   position: absolute; 
