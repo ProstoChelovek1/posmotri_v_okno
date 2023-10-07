@@ -89,7 +89,8 @@ a:hover{
     align-items: flex-end;
     flex-wrap: wrap;
     margin-top: 8px;
-} 
+}
+ 
 .button {
     font-size: 18px;
     font-family: 'Fira Sans Condensed', sans-serif;
@@ -114,7 +115,8 @@ a:hover{
     object-fit: cover;
     object-position: center; 
     width: 711px;
-    height: 386px; 
+    height: 386px;
+ 
 }
 
 .content__video-card-thumbnail {
@@ -206,7 +208,7 @@ a:hover{
     border-bottom: 1px solid white;
     border-right: 0px solid white;
     background-color: transparent;
-    margin-top: 8px;
+    margin-top: 5px;
 }
 .visually-hidden {
   position: absolute; 
