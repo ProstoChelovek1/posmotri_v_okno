@@ -277,7 +277,7 @@ a:hover{
     outline-offset: 1px;
     outline: 1px solid white;
 }
-
+  
 .button:focus {
     outline: none;
 }
