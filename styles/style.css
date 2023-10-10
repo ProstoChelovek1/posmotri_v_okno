@@ -1,23 +1,23 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-  block-size: 100%;
+    block-size: 100%;
 }
 
 .page {
-  display: flex;
-  inline-size: 1200px;
-  margin: auto;
-  block-size: 100%;
-  color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
-  background-color: #1b1919;
-  width: 1200px;
+    display: flex;
+    inline-size: 1200px;
+    margin: auto;
+    block-size: 100%;
+    color: #fff;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 18px;
+    background-color: #1b1919;
+    width: 1200px;
 }
 
 h1,
@@ -30,27 +30,27 @@ ol,
 li,
 blockquote,
 fieldset {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 ul,
 ol {
-  list-style: none;
+    list-style: none;
 }
 
 a {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     cursor: pointer;
 }
 
 .content__list {
     position: relative;
     overflow: auto;
-    height: 298px; 
+    height: 298px;
 }
 
 .content {
@@ -73,12 +73,12 @@ a:hover{
     color: #545050;
 }
 
-
 .result__video-container {
     position: relative;
     width: 711px;
     height: 386px;
 }
+
 .content__details {
     padding-left: 32px;
 }
@@ -88,12 +88,12 @@ a:hover{
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
-    margin-top: 8px;
+    margin-top: 17px;
 }
- 
+
 .button {
     font-size: 18px;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: "Fira Sans Condensed", sans-serif;
     color: white;
     border: 1px solid currentColor;
     background-color: transparent;
@@ -101,22 +101,22 @@ a:hover{
     cursor: pointer;
     line-height: 22px;
 }
+
 .search-form__submit-button {
     width: 194px;
     height: 35px;
-    padding-top: 5px; 
 }
-.more-button{
+
+.more-button {
     width: 100%;
     height: 35px;
 }
 
-.result__video{
+.result__video {
     object-fit: cover;
-    object-position: center; 
+    object-position: center;
     width: 711px;
     height: 386px;
- 
 }
 
 .content__video-card-thumbnail {
@@ -132,7 +132,7 @@ a:hover{
 }
 
 .content__list-item:not(:last-child) {
-    margin-bottom: 33px; 
+    margin-bottom: 33px;
 }
 
 .content__video-card-title {
@@ -142,7 +142,6 @@ a:hover{
     font-weight: Normal;
     text-transform: uppercase;
     line-height: 30px;
-    margin-top: 7px;
 }
 
 .content__video-card-description {
@@ -150,7 +149,7 @@ a:hover{
     font-size: 18px;
     font-weight: Normal;
     line-height: 16.5px;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: "Fira Sans Condensed", sans-serif;
     margin-top: 6px;
 }
 
@@ -163,13 +162,14 @@ a:hover{
 }
 
 .search-form__label:not(:last-child) {
-    margin-right: 15px; 
+    margin-right: 15px;
 }
+
 .search-form__checkbox-list {
     display: flex;
-    margin-top: 5px;
 }
-.search-form__pseudo-checkbox  {
+
+.search-form__pseudo-checkbox {
     display: block;
     width: 20px;
     height: 20px;
@@ -177,31 +177,34 @@ a:hover{
     vertical-align: middle;
     margin-right: 5px;
 }
+
 .search-form__label {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     cursor: pointer;
-    margin-top: 5px;
 }
+
 .search-form__fieldset-title {
     font-weight: Normal;
-    margin-top: 4px;
+    margin-bottom: 4px;
     font-size: 18px;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: "Fira Sans Condensed", sans-serif;
 }
+
 .search-form__label-text {
     display: block;
     font-weight: Normal;
-    font-size: 18px; 
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-family: "Fira Sans Condensed", sans-serif;
     line-height: 22px;
 }
+
 .search-form__textfield {
     font-weight: Normal;
     font-size: 18px;
     line-height: 22px;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: "Fira Sans Condensed", sans-serif;
     width: 225px;
     color: white;
     border-top: 1px solid white;
@@ -210,35 +213,38 @@ a:hover{
     border-right: 0px solid white;
     background-color: transparent;
 }
+
 .search-form__textfield::placeholder {
-  color: white;
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
-  line-height: 22px;
-  font-weight: Normal;
-}
-.visually-hidden {
-  position: absolute; 
-  width: 1px; 
-  height: 1px;
-  margin: -1px; 
-  padding: 0; 
-  border: 0; 
-  clip: rect(0 0 0 0); 
-  overflow: hidden; 
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: Normal;
 }
 
-.content__card-link  {
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+}
+
+.content__card-link {
     display: block;
     margin: 2px;
 }
+
 .content__card-link_current {
     background-color: #545050;
 }
+
 .search-form__checkbox:checked + .search-form__pseudo-checkbox {
-  background: white;
-  outline: 1px solid white;
-  border: 1px solid black;
+    background: white;
+    outline: 1px solid white;
+    border: 1px solid black;
 }
 
 .search-form__checkbox-list .search-form__label:hover {
@@ -246,16 +252,19 @@ a:hover{
     text-underline-offset: 3px;
     text-decoration-thickness: 1px;
 }
+
 .button:hover {
     text-decoration: underline;
     text-underline-offset: 3px;
     text-decoration-thickness: 1px;
 }
+
 .content__card-link:hover {
     text-decoration: underline white;
     text-underline-offset: 6px;
     text-decoration-thickness: 1px;
 }
+
 .content__card-link:focus {
     outline: none;
 }
@@ -264,23 +273,32 @@ a:hover{
     outline: 1px solid white;
     outline-offset: 1px;
 }
-.search-form__textfield:focus  {
+
+.search-form__textfield:focus {
     outline: none;
 }
-.search-form__textfield:active  {
+
+.search-form__textfield:active {
     border: 1px solid white;
 }
+
 .button:active {
     background-color: #545050;
 }
+
+.content__card-link:active {
+    background-color: #545050;
+}
+
 .search-form__label:has(:focus-visible) {
     outline-offset: 1px;
     outline: 1px solid white;
 }
-  
+
 .button:focus {
     outline: none;
 }
+
 .button:focus-visible {
     outline: 1px solid white;
     outline-offset: 1px;
